@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/common/base.css?time=12121222222">
+    <link rel="stylesheet" href="../../css/area/areaList.css">
+    <link rel="stylesheet" href="../../css/common/mui.css">
+    <link rel="stylesheet" href="../../css/area/addArea.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <ul class="clearfix">
+            <li class="fl">
+                <a href="javascript:history.go(-1)">
+                    <img src="../../images/area/left.png" alt="" class="fl">
+                    <span class="return fl"> 返回</span>
+                </a>
+            </li>
+            <li class="fl arealist">
+                <h4>新建片区</h4>
+
+
+            </li>
+
+        </ul>
+    </div>
+    <div class="addAreaContent">
+        <ul>
+            <li>
+                <div class="left fl">
+                    宗地号
+                </div>
+                <div class="right fr">
+                    <input type="text" placeholder="请填写" id="parcel_number">
+                </div>
+            </li>
+            <li>
+                <div class="left fl">
+                    权属单位
+                </div>
+                <div class="right fr">
+                    <input type="text" placeholder="" id="competent_unit_responsibilities" disabled="disabled">
+                </div>
+            </li>
+            <li>
+                <div class="left fl">
+                    片区名称
+                </div>
+                <div class="right fr">
+                    <input type="text" placeholder="请填写" id="name">
+                </div>
+            </li>
+            <li>
+                <div class="left fl">
+                    片区编码
+                </div>
+                <div class="right fr">
+                    <input type="text" placeholder="请填写" id="code">
+                </div>
+            </li>
+            <li>
+                <div class="left fl">
+                    挂牌单位
+                </div>
+                <div class="right fr">
+                    <input type="text" placeholder="请填写" id="listed_unit">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 备注开始 -->
+    <div class="remark">
+        <span class="title fl">备注</span>
+        <textarea name="" id="remarkContent" placeholder="请填写" class="fl"></textarea>
+    </div>
+    <div class="sumbit">
+        提交
+    </div>
+</body>
+<script src="../../common.js"></script>
+<script src="../../JS/common/jquery.min.js"></script>
+<script src="../../JS/common/mui.js"></script>
+<script src="../../JS/area/addArea.js"></script>
+
+</html>

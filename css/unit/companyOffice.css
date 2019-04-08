@@ -1,0 +1,81 @@
+
+ .header {
+    height: .44rem;
+    background: #fff;
+    margin-bottom: .10rem;
+}
+.header ul li.edit {
+    margin-top: 0.12rem;
+}
+.header ul{
+    height: .44rem;
+}
+.deailContent {
+    margin-top: .16rem;
+}
+.header ul li.arealist h4{
+    font-size: .17rem;
+}
+.header ul li:nth-child(1) img{
+    width: .12rem;
+    height: .21rem;
+    margin: .14rem .05rem .18rem .17rem;
+
+}
+.header ul li{
+    height: .42rem;
+
+}
+.header ul li:nth-child(1){
+    margin-right: .86rem;
+}
+.header ul li span.return{
+    font-size: .17rem;
+    color: #323232;
+    margin-top: .12rem;
+}
+.header ul li.arealist{
+    font-family: PingFangSC-Medium;
+    font-size: .17rem;
+    color: #323232;
+    margin: .1rem 1.16rem .18rem 0;
+    
+}
+.header ul li.add img{
+    width: .23rem;
+    height: .23rem;
+    margin-top: .135rem;
+}
+.header ul li.search img{
+    margin-top: .12rem;
+    width: .23rem;
+    height: .23rem;
+}
+.mui-slider-handle{
+    font-size: .15rem;
+    color: #323232;
+}
+.mui-table-view-cell{
+    padding: 0;
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+}
+.mui-slider-handle{
+    margin-left: .15rem;
+}
+.mui-content ul li .totalSum{
+    font-size: .15rem;
+    color: #323232;
+    margin-right: .16rem;
+}
+.mui-btn{
+    font-size: .15rem;
+}
+.mui-table-view-cell > .mui-slider-right{
+    /* width: .6rem; */
+}
+
+input[type='button'], input[type='submit'], input[type='reset'], button, .mui-btn{
+    padding: .115rem .15rem;
+}

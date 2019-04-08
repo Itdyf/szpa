@@ -1,0 +1,28 @@
+.mui-content ul li .totalSum {
+    font-size: .16rem;
+    height: .44rem;
+    color: #656565;
+    line-height: .44rem;
+}
+.mui-content ul li{
+    border: none;
+}
+.mui-content ul li .totalSum input{
+    border: none;
+    width: 1.4rem;
+    height: 80%;
+    text-align: right;
+    padding: 0;
+
+}
+.mui-content ul li .totalSum{
+    margin-right: .11rem;
+}
+.mui-table-view:before,.mui-table-view:before{
+   height: 0 !important;
+   display: none !important;
+   background-color: #fff !important;
+}
+.sumbit{
+    margin-top: .2rem;
+}

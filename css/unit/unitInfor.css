@@ -1,0 +1,34 @@
+.header ul li:nth-child(1) {
+    margin-right: .7rem;
+}
+.header ul li.search{
+    width: .23rem;
+    height: .23rem;
+   
+}
+.unListContent ul li .mianji .linkMan img{
+    margin: 0 .08rem .11rem .15rem;
+    width: .2rem;
+    height: .2rem;
+
+}
+
+.unListContent ul li .mianji .linkManName{
+    font-size: .14rem;
+    color: #323232;
+    margin-right: .13rem;
+}
+.unListContent ul li .mianji span.number{
+    font-size: .14rem;
+    color: #323232;
+    margin-left: .09rem;
+}
+.unListContent ul li  .rooms img{
+    margin:0 .08rem 0 .15rem;
+    width: .2rem;
+    height: .2rem;
+}
+.unListContent ul li  .rooms span.locaAddress{
+    font-size: .14rem;
+    color: #323232
+}

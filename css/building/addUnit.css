@@ -1,0 +1,11 @@
+.addAreaContent{
+    height: auto;
+}
+.addAreaContent ul li.line{
+    width: 100%;
+    height: .1rem;
+    background: #F1F2F5;
+}
+.addAreaContent ul li{
+    border: none;
+}

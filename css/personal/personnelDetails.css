@@ -1,0 +1,103 @@
+.header {
+    background-color: #fff;
+    height: .435rem;
+}
+
+.persolnelDetail {
+    background: #FFFFFF;
+    border-radius: .1rem;
+    width: 3.45rem;
+    height: 3.86rem;
+    margin: .55rem auto .51rem auto;
+}
+
+.persolnelDetail {
+    position: relative;
+}
+
+.persolnelDetail .headPortrait img {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -0.35rem;
+}
+
+.persolnelDetail .top ul li span.name {
+    font-size: 18px;
+    color: #323232;
+
+}
+
+.persolnelDetail .top ul li.name {
+    position: absolute;
+    top: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.persolnelDetail .top ul li .persolnelDetail .top ul li {
+    text-align: center;
+}
+
+.persolnelDetail ul li span.sex,
+.persolnelDetail ul li span.age {
+    margin-right: .13rem;
+
+}
+
+.persolnelDetail ul li.infor {
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.persolnelDetail ul li span {
+    font-size: 15px;
+    color: #323232;
+}
+
+.persolnelDetail .top ul li span.job {
+    width: 22px;
+    height: 13px;
+    font-size: 9px;
+    transform: scale(0.75);
+    color: #FFFFFF;
+    margin-top: 10px;
+    background: #2480DD;
+    -webkit-text-size-adjust: none;
+    border-radius: 5px 1px 5px 1px;
+}
+
+.persolnelDetail .top ul li.line {
+    width: 325px;
+    height: 1px;
+    background-color: #EAEAEA;
+    margin: 107px auto 13px auto;
+}
+
+.persolnelDetail .bottom ul li {
+    height: .17rem;
+    margin-bottom: .1rem;
+}
+
+.persolnelDetail .bottom ul li .leftR {
+    width: .82rem;
+    height: .2rem;
+    text-align: right;
+    margin: 0 .1rem .05rem 11px;
+}
+.persolnelDetail .bottom ul li .leftR span{
+    font-size: 14px;
+    color: #656565;
+}
+
+.persolnelDetail .bottom ul li span:nth-child(2) {
+    color: #323232;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 0px;
+}

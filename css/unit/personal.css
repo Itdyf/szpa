@@ -1,0 +1,56 @@
+.header ul li:nth-child(1) {
+    margin-right: 1.03rem;
+}
+
+.mui-card {
+    margin: 0;
+}
+
+.mui-input-group .mui-input-row {
+    height: .6rem;
+    line-height: .6rem;
+}
+
+.mui-input-group .mui-input-row:after {
+    height: 0;
+}
+
+.mui-input-row label {
+    padding: .13rem .15rem;
+}
+.mui-input-row label>img{
+    margin-right: .16rem;
+}
+
+.mui-input-group label ul li.title,
+.mui-input-group label ul li.name {
+    width: 1.7rem;
+    font-size: .14rem;
+    color: #323232;
+}
+.mui-input-group label ul li.title{
+    margin-bottom: .05rem;
+}
+.mui-checkbox input[type=checkbox]:before {
+    content: '';
+    width: .2rem;
+    display:block;
+    height: .2rem;
+    margin-top: .15rem;
+    background: url('../../images/unit/noset.png') no-repeat;
+    background-size: 100% 100%;
+
+}
+.mui-checkbox input[type=checkbox]:checked:before {
+    content: '';
+    width: .2rem;
+    display:block;
+    height: .2rem;
+    float: left;
+    margin-top: .15rem;
+    background: url('../../images/unit/pitch.png') no-repeat;
+    background-size: 100% 100%;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before {
+    color: #007aff;
+}

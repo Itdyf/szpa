@@ -1,0 +1,71 @@
+.header ul li.save {
+    font-size: .17rem;
+    color: #323232;
+    margin-right: .17rem;
+}
+
+.header ul li span.return {
+    font-size: .17rem;
+    color: #323232;
+    margin-top: 0;
+}
+
+.header {
+    line-height: 0.44rem;
+}
+
+.header ul li.arealist {
+    margin-right: 1.02rem;
+}
+
+input {
+    border: none !important;
+}
+
+.addAreaContent ul li {
+    background: #FFFFFF;
+}
+.addAreaContent{
+    height: auto;
+}
+
+.addAreaContent ul li .right input{
+    font-size: .16rem;
+    color: #323232;
+}
+.addAreaContent ul li.addPersonal,
+.addAreaContent ul li.levelThree
+{
+    border: none;
+    position: relative;
+}
+.addAreaContent ul li.addPersonal:after,
+.addAreaContent ul li.levelThree:after
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: .3rem;
+    height: .01rem;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.addAreaContent ul li.addPersonal:last-child::after,
+.addAreaContent ul li.levelThree:last-child::after
+{
+    left: 0;
+}
+.addAreaContent ul li.addPersonal .left{
+    
+}
+.addAreaContent ul li.addPersonal .left img
+
+{
+    width: .2rem;
+    height: .2rem;
+    margin-right: .1rem;
+    margin-top: .11rem;
+    margin-left: .17rem;
+}

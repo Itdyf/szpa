@@ -1,0 +1,19 @@
+body{
+    background-color: #fff;
+}
+
+.header ul,.header{
+    height: .42rem;
+}
+.addAreaContent{
+    margin-top: 0;
+}
+.addAreaContent ul li:nth-child(1){
+    border-top: .01rem solid #EAEAEA;
+}
+.addAreaContent ul li{
+    height: 0.46rem;
+}
+.addAreaContent ul li:nth-child(4){
+    border-bottom: .01rem solid #EAEAEA; 
+}

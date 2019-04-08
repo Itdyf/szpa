@@ -1,0 +1,50 @@
+.header ul li.arealist{
+    margin-right: 0;
+}
+h4{
+    margin: 0;
+}
+.header ul li:nth-child(1){
+    margin-right: .7rem;
+}
+.header ul li.arealist{
+    margin: .11rem 1.16rem .18rem 0;
+}
+.header{
+    height: .42rem;
+    background: #fff;
+}
+input{
+    border: none !important;
+}
+.addAreaContent{
+    height:2.27rem;
+}
+.addAreaContent ul li .right{
+    height: 80%;
+}
+.addAreaContent ul li .right input{
+    margin: 0;
+    padding: 0;
+    width: .52rem;
+}
+.addAreaContent ul li .right img{
+    margin-top: .11rem;
+    width: .15rem;
+    height: .15rem;
+    margin-left: .035rem;
+}
+#remarkContent{
+    height: .8rem;
+    padding: 0;
+    line-height: initial;
+}
+.remark .title{
+    line-height: initial;
+}
+.addAreaContent{
+    margin-bottom: .2rem;
+}
+.addAreaContent ul li .right{
+    width: .71rem;
+}

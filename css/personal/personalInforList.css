@@ -1,0 +1,406 @@
+.header {
+    height: .36rem;
+    margin-bottom: .18rem;
+}
+
+.header ul li:nth-child(1) img {
+    width: .12rem;
+    height: .21rem;
+    margin: .14rem .05rem .18rem .17rem;
+
+}
+
+.header ul li:nth-child(1) {
+    margin-right: .7rem;
+}
+
+.header ul li.search img,
+.header ul li.edit img {
+    width: .23rem;
+    height: .23rem;
+}
+
+.header ul li span.return {
+    font-size: .17rem;
+    color: #323232;
+    margin-top: .12rem;
+}
+
+.header ul li.arealist {
+    font-family: PingFangSC-Medium;
+    font-size: .17rem;
+    color: #323232;
+    margin: .1rem 0.62rem .18rem 0;
+
+}
+
+.header ul li.search,
+.header ul li.edit {
+    margin-top: .155rem;
+}
+
+.header ul li.search {
+    margin-right: .16rem;
+}
+
+.header ul li.add img {
+    width: .23rem;
+    height: .23rem;
+    margin-top: .135rem;
+}
+
+.mui-content>ul li.mui-table-view-cell {
+    width: 50%;
+    /* text-align: center; */
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view.mui-table-view-chevron {
+    width: 200%;
+}
+
+.mui-content ul li.mui-table-view-cell>a {
+    font-size: .15rem;
+    color: #656565;
+    font-family: PingFangSC-Regular;
+}
+
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn) {
+    margin-right: 0;
+}
+
+.mui-content>ul li.mui-table-view-cell ul.mui-table-view.mui-table-view-chevron .mui-table-view-cell.mui-collapse .mui-table-view.mui-table-view-chevron {
+
+    margin: 0;
+    max-width: 199.98%;
+}
+
+.mui-table-view-cell.mui-collapse.mui-active>a {
+    color: #279EF4 !important;
+}
+
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn) {
+    padding: .11rem 0 .11rem .55rem;
+}
+
+.mui-table-view-cell:after,
+.mui-table-view-cell::before {
+    height: 0;
+}
+
+.mui-table-view-cell.mui-collapse>.mui-navigate-right:after,
+.mui-table-view-cell.mui-collapse>.mui-push-right:after {
+    content: '';
+    display: block;
+    width: .14rem;
+    height: .09rem;
+    right: .55rem;
+    background: url('../../images/unit/down.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.mui-table-view-cell.mui-collapse.mui-active>.mui-navigate-right:after,
+.mui-table-view-cell.mui-collapse.mui-active>.mui-push-right:after {
+    content: '';
+    display: block;
+    width: .14rem;
+    height: .09rem;
+    right: .55rem;
+    margin-top: .005rem;
+    background: url('../../images/unit/upBlue.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.mui-table-view-cell:first-child:after {
+    height: .2rem;
+    width: .01rem;
+    transform: scaleY(1);
+    right: 0;
+    position: absolute;
+    left: auto;
+    top: .12rem;
+    margin-top: .005rem;
+
+    background: #8393B1;
+}
+
+body {
+    background: #fff;
+}
+
+.mui-table-view-cell.mui-active {
+    background-color: #fff;
+}
+
+.mui-table-view:after {
+    height: 0;
+}
+
+.paddingLeft {
+    padding-left: .44rem !important;
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell {
+    padding: 0;
+}
+
+/* .mui-navigate-right:after, .mui-push-right:after{
+    right: .2rem;
+    position: absolute;
+    content: '';
+    width: .15rem;
+    height: .15rem;
+    display: block;
+    background: url('../../images/unit/pitch.png') no-repeat;
+    background-size: 100% 100%;
+
+} */
+.mui-table-view-cell.mui-collapse .mui-table-view,
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn) {
+    margin: 0;
+}
+
+.widthSelect {
+    width: 100% !important;
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell:after {
+    height: 0;
+}
+
+.mui-table-view-cell {
+    overflow: initial;
+}
+
+/* .mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell .mui-navigate-right.muiActive:after{
+    right: .2rem;
+    position: absolute;
+    content: '';
+    width: .15rem;
+    height: .15rem;
+    display: block;
+    background: url('../../images/unit/pitch.png') no-repeat;
+    background-size: 100% 100%;
+} */
+
+.mui-content ul li.mui-table-view-cell a.muiActive::after {
+    right: .2rem;
+    position: absolute;
+    content: '';
+    width: .15rem;
+    height: .15rem;
+    display: none;
+    background: url('../../images/unit/pitch.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.muiActive {
+    display: block !important;
+
+}
+
+.colorActive {
+    color: #279EF4 !important;
+}
+
+.mui-backdrop {
+    position: fixed;
+    top: .54rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 66;
+    /* display: none; */
+    opacity: 0.55;
+    background: #000000;
+}
+
+.mui-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 6666;
+}
+
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+
+.unListContent {
+    margin-top: .6rem;
+}
+
+.unListContent ul li .left {
+    width: 3.1rem;
+    height: 100%;
+    border-right: .01rem solid #EAEAEA;
+    /* margin-top: -0.1rem; */
+}
+
+.unListContent ul li .left img {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    margin: 0.2rem .1rem 0 .2rem;
+
+}
+
+.unListContent ul li .left h4.name {
+    font-size: .18rem;
+    color: #323232;
+    margin: .18rem .08rem .05rem 0;
+
+}
+
+.mui-content .mui-table-view .mui-table-view-chevron .mui-collapse-content img {
+    width: .17rem;
+    height: .17rem;
+    margin-right: .2rem;
+    display: none;
+
+}
+
+
+
+.unListContent ul li.mui-ul .left li.title {
+    font-size: .15rem;
+    color: #656565;
+    height: .21rem;
+    width: auto;
+    margin: .05rem 0;
+}
+
+.unListContent ul li.mui-ul .left ul li span {
+    font-size: .15rem;
+    color: #656565;
+}
+
+.unListContent ul li.mui-ul .left ul li span.sex,
+.unListContent ul li.mui-ul .left ul li span.age {
+    margin-right: .13rem;
+}
+
+.unListContent ul li.mui-ul .left li {
+    width: 2rem;
+}
+
+.unListContent ul li .left ul li span {
+    font-size: .15rem;
+    color: #656565;
+}
+
+.mui-table-view:before {
+    height: 0;
+}
+
+.unListContent ul li .right ul li.papersNumber {
+    font-size: .13rem;
+    color: #279EF4;
+}
+
+.unListContent ul li .right ul li img {
+    width: .2rem;
+    height: .2rem;
+}
+
+.unListContent ul li .right ul li,
+.unListContent ul li .right {
+    width: .42rem;
+    text-align: center;
+}
+
+.unListContent ul li .right ul li.papers img {
+    margin: .38rem 0 .01rem .12rem;
+}
+
+.unListContent ul li .left span.workType {
+    font-size: .12rem !important;
+    color: #3DE9B7;
+    border-radius: .3rem;
+    margin-top: .18rem;
+    border: .01rem solid #3DE9B7;
+    padding: .01rem .04rem;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+    content: '';
+}
+
+/*点击变蓝色高亮*/
+.mui-table-view-cell.mui-collapse .mui-collapse-content {
+    margin: 0;
+}
+
+.mui-content .mui-table-view.mui-table-view-chevron::after {
+    height: .2rem;
+    width: .01rem;
+    background: #fff;
+
+}
+
+.mui-table-view-cell.mui-collapse:nth-child(1) .mui-table-view-cell.widthSelect:last-child::after
+
+{
+    content: '';
+    position: fixed;
+    height: .2rem;
+    bottom: -0.19rem;
+    left: 3.34rem;
+    height: .19rem;
+    width: .01rem;
+    z-index: 999;
+    content: '';
+    /* -webkit-transform: scaleY(.5); */
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    background-color: #fff;
+}
+.mui-table-view-cell.mui-collapse:nth-child(2) .mui-table-view-cell.widthSelect:last-child::after{
+    left: 1.48rem;
+    content: '';
+    position: fixed;
+    height: .2rem;
+    bottom: -0.19rem;
+  
+    height: .19rem;
+    width: .01rem;
+    z-index: 999;
+    content: '';
+    /* -webkit-transform: scaleY(.5); */
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    background-color: #fff;
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view-cell.widthSelect:last-child::before {
+    content: '';
+    position: fixed;
+    display: block;
+    z-index: 999;
+    width: .2rem;
+    bottom: -0.38rem;
+    height: .2rem;
+    left: 3.25rem;
+    background: url('../../images/unit/close.png') no-repeat;
+    background-size: 100% 100%;
+
+}
+.mui-table-view-cell.mui-collapse:nth-child(2) .mui-table-view-cell.widthSelect:last-child::before{
+    content: '';
+    position: fixed;
+    display: block;
+    z-index: 999;
+    width: .2rem;
+    bottom: -0.38rem;
+    height: .2rem;
+    left: 1.39rem;
+    background: url('../../images/unit/close.png') no-repeat;
+    background-size: 100% 100%;
+}
+.mui-table-view-cell.mui-collapse .mui-table-view.mui-table-view-chevron {
+    margin-right: 0;
+}
+
+.ml {
+    margin-left: -100% !important;
+}

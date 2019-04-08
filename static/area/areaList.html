@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 删除默认的苹果工具栏和菜单栏。 -->
+    <meta content="no" name="apple-mobile-web-app-capable">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 关闭自动识别数字号码 -->
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/common/mui.css">
+    <link rel="stylesheet" href="../../css/area/areaList.css">
+    <title>片区列表</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <ul class="clearfix">
+            <li class="fl">
+                <img src="../../images/area/left.png" alt="" class="fl">
+                <span class="return fl">
+                    <a href="javascript:history.go(-1)">返回</a>
+
+                </span>
+            </li>
+            <li class="fl arealist">
+                <h4>片区列表</h4>
+
+            </li>
+            <li class="fl add">
+                <a href="./addArea.html">
+                    <img src="../../images/area/add.png" alt="新增图片" class="fl">
+                </a>
+
+            </li>
+        </ul>
+    </div>
+    <!-- <div id="containerBox">
+
+
+
+    </div> -->
+
+    <div id="refeshArea" class="mui-content mui-scroll-wrapper">
+
+        <div class="unListContent mui-scroll">
+            <ul class="mui-table-view mui-table-view-chevron">
+                <!-- <li class="clearfix">
+                                <div class="top clearfix">
+                                    <h4 class="fl">{{value.name}}</h4>
+                                    <p class="clearfix areaCode">{{value.parcel_number}}</p>
+                                    <p class="unit">{{value.region_name}}</p>
+                                </div>
+                                <div class="center">
+            
+                                </div>
+                                <div class="bottom clearfix">
+                                    <span class="fl manager">
+                                        管理信息
+                                    </span>
+                                    <span>
+                                        <img src="../../images/area/downArrow.png" alt="" class="fl">
+                                    </span>
+            
+                                </div> -->
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+    <!-- 模板 开始-->
+    <script id="areaListTemp" type="text/html">
+        {{each data  as  value i}}
+        <li class="clearfix">
+            <a href="">
+
+
+                <div class="top clearfix">
+                    <h4 class="fl">{{value.name}}</h4>
+                    <p class="clearfix areaCode">{{value.parcel_number}}</p>
+                    <p class="unit">{{value.region_name}}</p>
+                </div>
+            </a>
+                <div class="center">
+
+                </div>
+            <input type="hidden" id="placeId" value="{{value.base_place_id}}">
+            <div class="bottom clearfix" data-status='0' flag='true'>
+             
+                <input type="hidden" value="{{value.id}}">
+                <span class="fl manager">
+                    管理信息
+                </span>
+                <span>
+                    <img src="../../images/area/downArrow.png" alt="" class="fl">
+                </span>
+
+            </div>
+        </li>
+        {{/each}}
+
+
+
+        </div>
+    </script>
+
+    <!-- 模板 结束-->
+    <script id="ContentTmp" type="text/html">
+        {{each data as value i}}
+        {{if value.category_base_zone_r_unit_type_id==550001}}
+        <div class="manangement">
+            <ul>
+
+                <li class="clearfix">
+                    <img src="../../images/area/blue.png" alt="" class="fl blue">
+                    <span class="fl manage">管理单位</span>
+                    <span class="fl manageName">{{value.category_base_zone_r_unit_type_name}}</span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.corporate_representative_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.corporate_representative_personel_contact}}
+                    </span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.fire_security_management_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.fire_security_management_personel_contact}}
+                    </span>
+                </li>
+            </ul>
+        </div>
+        {{else if value.category_base_zone_r_unit_type_id==550002}}
+        <div class="manangement">
+            <ul class="mt">
+                <li class="clearfix">
+                    <img src="../../images/area/red.png" alt="" class="fl blue">
+                    <span class="fl manage">使用单位</span>
+                    <span class="fl manageName">{{value.category_base_zone_r_unit_type_name}}</span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.corporate_representative_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.corporate_representative_personel_contact}}
+                    </span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.fire_security_management_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.fire_security_management_personel_contact}}
+                    </span>
+                </li>
+            </ul>
+        </div>
+        {{else if value.category_base_zone_r_unit_type_id==550003}}
+        <div class="manangement">
+            <ul class="mt">
+                <li class="clearfix">
+                    <img src="../../images/area/green.png" alt="" class="fl blue">
+                    <span class="fl manage">物业单位</span>
+                    <span class="fl manageName">{{value.category_base_zone_r_unit_type_name}}</span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.corporate_representative_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.corporate_representative_personel_contact}}
+                    </span>
+                </li>
+                <li class="clearfix">
+                    <img src="../../images/area/linkMan.png" alt="" class="fl" id="linkMan">
+                    <span class="fl name">{{value.fire_security_management_personel_name}}</span>
+                    <img src="../../images/area/tel.png" alt="" class="fl tel">
+                    <span class="fl tel">
+                        {{value.fire_security_management_personel_contact}}
+                    </span>
+                </li>
+            </ul>
+        </div>
+        {{/if}}
+        {{/each}}
+    </script>
+
+
+
+
+</body>
+<script src="../../common.js"></script>
+<script src="../../JS/common/jquery.min.js"></script>
+<script src="../../JS/common/template.js"></script>
+<script src="../../JS/common/mui.js"></script>
+<script src="../../JS/common/mui.pullToRefresh.js"></script>
+<script src="../../JS/common/mui.pullToRefresh.material.js"></script>
+<script src="../../JS/area/areaList.js"></script>
+
+</html>

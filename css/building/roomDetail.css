@@ -1,0 +1,86 @@
+.header ul li.edit{
+    margin-right: .2rem;
+}
+.footDeailContent .top ul li .address{
+    /* width: 70%; */
+    position: absolute;
+    left: 29%;
+    transform:translateX(-10%);
+  
+    -webkit-transform:translateX(-10%);
+    -moz-transform:translateX(-10%);
+
+}
+.footDeailContent{
+    position: relative;
+}
+.mr{
+    margin-right: .12rem;
+}
+.header ul li.arealist h4{
+    font-size: .17rem;
+}
+.footDeailContent .top{
+    height: 1.02rem;
+}
+.checkIn{
+    font-size: .12rem;
+    color: #465D83;
+    margin: 0 0 .05rem .1rem;
+}
+.footDeailContent{
+    height: 2.43rem;
+    margin-bottom: .15rem;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+    content: '';
+    display: block;
+    width: .19rem;
+    height: .19rem;
+    background: url('../../images/area/rightArrow.png') no-repeat;
+    background-size: 100% 100%;
+}
+.mui-ios .mui-table-view-cell{
+    height: .6rem;
+    padding: 0;
+    /* border-bottom: .01rem solid #EAEAEA; */
+    border-radius: .04rem .04rem 0 0;
+    /* line-height: .6rem; */
+
+}
+.mui-ios .mui-table-view-cell:first-child{
+    border-top: .01rem solid #EAEAEA;
+}
+.mui-table-view-cell > a:not(.mui-btn){
+    margin: 0;
+}
+.mui-table-view-cell:after{
+    left: 0;
+}
+.mui-card .mui-table-view .mui-navigate-right .left{
+    width: .35rem;
+    height: .35rem;
+    margin: .13rem .11rem 0 .1rem;
+}
+.mui-card .mui-table-view .mui-navigate-right .right p.title{
+    font-size: .14rem;
+    color: #323232;
+    display: inline-block;
+    height: .2rem;
+    margin: .11rem 0 0rem 0;
+
+}
+.mui-card .mui-table-view .mui-navigate-right .right p.address{
+    font-size: .14rem;
+    color: #323232;
+}
+.mui-card .mui-table-view .mui-navigate-right .right p.address img{
+    width: .2rem;
+    height: .11rem;
+    margin-left: .06rem;
+}
+.mui-card ul li .left img{
+    width: .35rem;
+    height: .35rem;
+}
+

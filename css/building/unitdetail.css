@@ -1,0 +1,41 @@
+.header ul li.edit{
+    margin-top: .12rem;
+    margin-right: .23rem;
+}
+.header ul li.arealist{
+    margin: .12rem 1rem .18rem 0
+}   
+.unListContent{
+    border: none;
+}
+.more{
+    font-size: .12rem;
+    color: #989898;
+    margin: 0 0 .05rem .1rem;
+}
+.loce{
+    width: 3.55rem;
+    height: .44rem;
+    border: .01rem solid #EAEAEA;
+    border-radius: .02rem;
+    line-height: .44rem;
+    margin: 0 auto;
+}
+.loce ul li.floors{
+    font-size: .15rem;
+    color: #323232;
+    margin: 0 2.08rem 0 .15rem;
+
+}
+.loce ul li.total{
+    font-size: .15rem;
+    color: #323232;
+    margin-right: .17300000000000001rem;
+}
+.loce ul li:nth-child(3){
+    height: .44rem;
+    width: .15rem;
+}
+.loce ul li:nth-child(3) img{
+    margin-top: .125rem;
+}

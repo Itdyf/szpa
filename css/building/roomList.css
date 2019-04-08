@@ -1,0 +1,68 @@
+.header ul li.edit {
+    margin-top: .12rem;
+    margin-right: .2rem;
+}
+.unListContent ul li h5.address{
+    font-size: .15rem;
+    color: #323232;
+    margin: .04rem 0.05rem .08rem 0rem;
+}
+
+.unListContent ul li{
+    width: 3.55rem;
+    height: 1.11rem;
+    border: .01rem solid #EAEAEA;
+    border-radius: .2rem;
+    margin: 0 auto .1rem auto;
+}
+.unListContent ul li .title span.roomName{
+    font-size: .18rem;
+    color: #323232;  
+    margin: .15rem .1rem .08rem .15rem;   
+    font-weight: 800;
+}
+.unListContent ul li .title span.floors{
+    font-size: .15rem;
+    color: #323232;
+    font-weight: 800;
+    margin: .19rem .16rem .08rem 0;
+}
+.unListContent ul li .title span.ridgepole{
+    font-size: .15rem;
+    color: #323232;
+    margin: .19rem .16rem .08rem 0;
+    font-weight: 800;
+}
+.unListContent ul li .title span.adress{
+    font-size: .15rem;
+    color: #323232;
+    margin: .19rem .16rem .08rem 0;
+    font-weight: 800;
+}
+.unListContent ul li img.area{
+    margin-right: .05rem;
+    margin-bottom: .08rem;
+    margin-left: .17rem;
+    margin-right: .09rem;
+    width: .2rem;
+    height: .2rem;
+}
+.unListContent ul li span.area {
+    font-size: .14rem;
+    color: #656565;
+   
+}
+.unListContent ul li span.floor{
+    margin-left: .15rem;
+}
+.unListContent ul li span.floor, .unListContent ul li span.room {
+    font-size: .14rem;
+    color: #656565;
+}
+.mui-pull-caption.mui-pull-caption-down{
+    font-size: .14rem;
+    text-align: center;
+}
+.mui-scroll-wrapper{
+    top: .54rem;
+}

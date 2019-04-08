@@ -1,0 +1,26 @@
+.addAreaContent ul li.line {
+    width: 100%;
+    height: .1rem;
+}
+.addAreaContent{
+    height: auto;
+}
+
+.addAreaContent ul li input::-webkit-input-placeholder{
+    font-size: .16rem;
+    color: #656565;
+}
+.addAreaContent l li input{
+    font-size: .16rem;
+    color: #323232;
+}
+
+
+
+.sumbit{
+    position: fixed;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    bottom: .25rem;
+}

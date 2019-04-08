@@ -1,0 +1,120 @@
+body {
+    background: #F1F2F5;
+}
+
+.header {
+    background: #ffffff;
+    height: .49rem;
+}
+
+.addAreaContent {
+    width: 100%;
+    height: 2.2rem;
+    background: #ffffff;
+    margin: .1rem 0 .1rem 0;
+}
+
+.addAreaContent ul li {
+    border-bottom: .01rem solid #EAEAEA;
+    height: .44rem;
+    line-height: .44rem;
+}
+
+.addAreaContent ul li:last-child {
+    border: none;
+}
+
+.addAreaContent ul li .left {
+    margin-left: .1rem;
+    font-family: PingFangSC-Regular;
+    font-size: .16rem;
+    color: #323232;
+    /* margin-right: 2.19rem; */
+    width: .65rem;
+}
+
+.addAreaContent ul li .right {
+    font-size: .16rem;
+    margin-right: .1rem;
+}
+
+.addAreaContent ul li .right input,
+.addAreaContent ul li .right {
+    width: .8rem;
+    text-align: right;
+    width: 2.18rem;
+
+}
+
+.addAreaContent ul li .right input {
+    font-size: .16rem;
+    color: #323232;
+}
+
+.addAreaContent ul li .right::-webkit-input-placeholder {
+    font-size: .16rem;
+    color: #989898;
+}
+
+.remark {
+    width: 100%;
+    height: 1.39rem;
+    background-color: #ffffff;
+    margin-bottom: .2rem;
+}
+
+.remark .title {
+    font-size: .16rem;
+    margin: .1rem 0 0rem .1rem;
+    color: #323232;
+}
+
+#remarkContent {
+    width: 3.4rem;
+    height: 1.02rem;
+    border: none;
+    font-size: .16rem;
+    margin-left: .1rem;
+    margin-top: 5px;
+    padding: 0;
+
+}
+
+#remarkContent::-webkit-input-placeholder {
+    font-size: .16rem;
+    color: #989898;
+}
+
+.sumbit {
+    width: 3.64rem;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    color: #fff;
+    font-size: .17rem;
+    margin: 0 auto;
+    background: #2480DD;
+    border-radius: .1rem;
+}
+
+.marginRight {
+    margin-right: .5rem !important;
+    width: 2rem !important;
+}
+
+.addAreaContent ul li .right {
+    height: .31rem;
+}
+
+#unitAdress::-webkit-input-placeholder,
+#regtime::-webkit-input-placeholder {
+    padding-right: 0.05rem;
+}
+
+.Width {
+    width: 2rem !important;
+}
+
+.MT {
+    margin-top: .14rem;
+}

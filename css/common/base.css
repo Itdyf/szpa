@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td ,textarea { margin:0; padding:0; box-sizing: border-box}
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-family:'PingFangSC-Regular';  color: #222; -webkit-overflow-scrolling:touch }
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%;  }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a { text-decoration: none; color: #666; background: none }
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right}
+
+/* 禁止input页面放大 */
+input,input:focus,input:active{user-select: text;}
+
+input{
+    border: none;
+}
+/* 标题 h4样式*/
+.header ul li.arealist h4{
+    font-size: .17rem;
+}
+/* 按钮公共样式 */
+.sumbit {
+    width: 3.64rem;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    color: #fff;
+    font-size: .17rem;
+    margin: 0 auto;
+    background: #2480DD;
+    border-radius: .1rem;
+}
+input{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* 复选框样式 */
+.unListContent ul li.mui-ul{
+    width: 3.55rem;
+    height: 1.11rem;
+    border: .01rem solid #EAEAEA;
+    border-radius: .2rem;
+    margin: 0 auto .1rem auto;
+}
+/* 设置滚动条宽度 */
+::-webkit-scrollbar {    
+    width: 0rem;
+    display: none;
+
+}
+/*头部公共样式 */
+.header {
+    height: .36rem;
+    margin-bottom: .18rem;
+}
+
+.header ul li:nth-child(1) img {
+    width: .12rem;
+    height: .21rem;
+    margin: .14rem .05rem .18rem .17rem;
+
+}
+
+.header ul li:nth-child(1) {
+    margin-right: .7rem;
+}
+
+.header ul li.search img,
+.header ul li.edit img {
+    width: .23rem;
+    height: .23rem;
+}
+
+.header ul li span.return {
+    font-size: .17rem;
+    color: #323232;
+    margin-top: .12rem;
+}
+
+.header ul li.arealist {
+    font-family: PingFangSC-Medium;
+    font-size: .17rem;
+    color: #323232;
+    margin: .1rem 0.62rem .18rem 0;
+
+}
+
+.header ul li.search,
+.header ul li.edit {
+    margin-top: .155rem;
+}
+
+.header ul li.search {
+    margin-right: .16rem;
+}
+
+.header ul li.add img {
+    width: .23rem;
+    height: .23rem;
+    margin-top: .135rem;
+}
+input{
+    border:none !important;
+}
+.mui-toast-container {
+    top: 50%;
+}
+
+/* 雪花 */
+.mui-icon-pulldown:before {
+    content:'';
+    background: url('../../images/area/loading.png') no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: 100% 100%;
+}

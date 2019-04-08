@@ -1,0 +1,233 @@
+.header ul li:nth-child(1) {
+    margin-right: .86rem;
+}
+
+.header ul li.arealist {
+    margin-right: 1.16rem;
+}
+
+body {
+    background: #fff;
+}
+
+.container {
+    width: 3.55rem;
+    margin: 0 auto;
+    height: auto;
+    border: .01rem solid #EAEAEA;
+    border-radius: .2rem;
+    margin-bottom: .15rem;
+}
+
+.container .top ul {
+    margin-left: .15rem;
+}
+
+.container .top ul li.name h4 {
+    font-size: .18rem;
+    font-family: PingFangSC-Medium;
+    margin: .18rem 0 .05rem 0;
+}
+
+.container .top ul li.tel {
+    font-size: .12rem;
+    margin: 0 0 .05rem 0;
+}
+
+.container .top ul li.companyName {
+    font-size: .14rem;
+    margin-bottom: .095rem;
+}
+
+.container .top ul li.line {
+    width: 3.25rem;
+    height: 1px;
+    background: #EAEAEA;
+
+}
+
+#manager {
+    font-size: .12rem;
+    margin: .095rem .09rem .1rem 1.44rem;
+    color: #279EF4;
+}
+
+.container .bottom ul li img {
+    margin-top: .145rem;
+    width: .12rem;
+    height: .07rem;
+}
+
+.container .content ul li {
+    font-size: .14rem;
+}
+
+.container .content ul li .left img {
+    width: .12rem;
+    height: .12rem;
+}
+
+.container .content ul li .title img {
+    width: .12rem;
+    height: .12rem;
+    display: inline-block;
+    margin: .21rem .07rem 0 .23rem;
+}
+
+.container .content ul li span.management,
+.container .content ul li span.manContent {
+    font-size: .14rem;
+    font-weight: 800;
+    font-family: PingFangSC-Semibold;
+}
+
+.container .content ul li .left {
+    margin: .19rem .07rem 0 .23rem;
+}
+
+.container .content ul li .right {
+    margin-top: .18rem;
+}
+
+.container .content ul li .right ul li.linkman,
+.container .content ul li .right ul li.tel {
+    margin-top: .11rem;
+}
+
+#linkMan {
+    width: .2rem;
+    height: .2rem;
+    margin: 0 .06rem .03rem 0.15rem;
+
+}
+
+.center .manangement ul li  span.name {
+    margin-right: .14rem;
+    font-size: .13rem;
+    color: #656565;
+}
+
+.center .manangement ul li  img.tel {
+    margin-right: .08rem;
+
+}
+
+.center .manangement ul li  span.tel {
+    font-size: .13rem;
+    color: #656565;
+
+}
+
+.content ul li  ul li.Mange p {
+    font-size: .13rem;
+    color: #656565;
+}
+
+.content ul li .right ul li.Mange {
+    margin-top: .03rem;
+}
+
+.container .content {
+    /* display: none; */
+}
+
+.unListContent ul li {
+    width: 3.55rem;
+    height: auto;
+    border: .01rem solid #EAEAEA;
+    border-radius: .2rem;
+    margin: 0 auto .1rem auto;
+}
+
+.unListContent ul li .top h4 {
+    font-size: .18rem;
+    height: 25px;
+    font-family: PingFangSC-Medium;
+    margin: .18rem 0 .05rem 0;
+    display: inline-block;
+}
+
+.unListContent ul li .top {
+    border-bottom: 1px solid #EAEAEA;
+    width: 325px;
+    margin: 0 auto;
+
+}
+
+.unListContent ul li .top p {}
+
+.unListContent ul li .top p.areaCode {
+    font-size: 12px;
+    color: #656565;
+}
+
+.unListContent ul li .top p.unit {
+    font-size: 14px;
+    color: #656565;
+}
+
+.unListContent ul li .top {
+    height: 99.5px;
+}
+
+.unListContent ul li .bottom {
+    height: 36.5px;
+}
+
+.unListContent ul li .bottom span.manager {
+    font-size: .12rem;
+    margin: .095rem .09rem .1rem 1.44rem;
+    color: #279EF4;
+}
+
+.unListContent ul li .bottom img {
+    margin-top: .145rem;
+    width: .12rem;
+    height: .07rem;
+}
+
+.unListContent ul li .manangement ul li {
+    border: none;
+}
+
+.unListContent ul li .manangement ul li span.manage,
+.unListContent ul li .manangement ul li span.manageName
+{
+    font-size: 14px;
+    color: #323232;
+    font-weight: 800;
+}
+.unListContent ul li .manangement ul li span.manage{
+    margin-right: 13px;
+}
+.unListContent ul li .manangement ul:nth-child(1){
+    margin: 17px 0px 0px 23px;
+}
+.unListContent ul li .manangement ul li img.blue{
+    margin-right: 7px;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+}
+.unListContent ul li .manangement ul li span.name{
+
+}
+.mt{
+    margin-top: 0 !important;
+}
+.mui-scroll-wrapper{
+    top:50px;
+
+}
+.mui-content{
+    background: #fff !important;
+}
+.mui-table-view:after{
+    height:0 ;
+}
+.mui-content::-webkit-scrollbar{
+    display: none;
+}
+.overFlow{
+    overflow: initial !important;
+}
